@@ -1,0 +1,67 @@
+.container {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 4px;
+}
+.postInfo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.name {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.time {
+  color: gray;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.caption {
+  margin: 16px 0;
+}
+.captionText {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.image {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.image img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.react {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+.react div {
+  display: flex;
+  align-items: center;
+}
+.react span {
+  margin-left: 4px;
+  color: #535353;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: sans-serif;
+}

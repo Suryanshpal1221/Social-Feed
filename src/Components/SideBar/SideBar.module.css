@@ -1,0 +1,42 @@
+.main {
+  box-sizing: border-box;
+  min-width: 20%;
+  height: 95vh;
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  padding-top: 36px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+.activity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.activity text {
+  margin-left: 10px;
+}
+
+.button {
+  align-self: flex-start;
+  padding: 7px 28px;
+  border: none;
+  border-radius: 4px;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.profiles {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}

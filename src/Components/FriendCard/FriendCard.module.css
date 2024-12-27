@@ -1,0 +1,24 @@
+.friend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.friend:hover {
+  cursor: pointer;
+}
+.friend span {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+.greendot {
+  height: 14px;
+  width: 14px;
+  background-color: green;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: relative;
+  left: 35px;
+  top: -10px;
+}

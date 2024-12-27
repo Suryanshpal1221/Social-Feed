@@ -1,0 +1,73 @@
+.section1 {
+  display: flex;
+  height: 100vh;
+  padding-top: 28px;
+  box-sizing: border-box;
+}
+
+.contentContainer {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  height: 100%;
+  width: 100%;
+  gap: 16px;
+  padding: 16px;
+}
+
+.leftGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  scroll-behavior: smooth;
+  overflow: scroll;
+  padding: 8px;
+  height: 100%;
+}
+.leftGrid::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.rightGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+  padding: 8px 0;
+}
+
+.birthday {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.birthday span {
+  font-weight: 800;
+}
+
+.img {
+  width: 100%;
+}
+.img img {
+  width: 100%;
+  object-fit: cover;
+}
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  /* padding: 16px 0; */
+}
+
+.onlineFr {
+  display: flex;
+  height: 460px;
+  overflow-y: scroll;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+.onlineFr::-webkit-scrollbar {
+  display: none;
+}
