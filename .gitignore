@@ -1,24 +1,68 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
 # Logs
-logs
-*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Dependency directories
+/.pnp
+.pnp.js
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+# Environment files
+.env
+.env.*.local
+
+# Editor settings
+.idea/
+.vscode/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Testing-related files
+coverage/
+.jest/
+
+# Package lock files (if using Yarn and npm interchangeably)
+yarn.lock
+package-lock.json
+
+# Linting cache
+.eslintcache
+
+# Service workers
+sw.js
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.orig
+
+# Specific to React/Next.js
+.next/
+out/
+.cache/
+
+# Images and large files
+*.tiff
+*.raw
+
+# Miscellaneous
+*.bak
+*.zip
+*.7z
+*.tar.gz
+
